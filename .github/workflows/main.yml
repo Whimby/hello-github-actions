@@ -3,7 +3,7 @@ on: push
 jobs:
   build:
     name: Ze Privet mir
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: ./action-a
